@@ -1,0 +1,91 @@
+body {
+    background-color: #1abc9c;
+    font-family: verdana, sans-serif;
+}
+h1 {
+    color: #000000;
+    font-family: Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+}
+ol {
+    background-color: #00ffff;
+}
+li#middle {
+    background-color: #ffffff;
+}
+textarea#TypeIn {
+    text-align: center;
+}
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+nav {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+div#forTheMiddle {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 0px;
+    padding: 0 auto;
+    position: relative;
+    background-color: #ecf0f1;
+    width: 90vw;
+    display: inline-block;
+    display: table;
+    margin: auto;
+    font-variant: small-caps;
+}
+div#insideDiv {
+    padding: 25px;
+    width: 75%;
+    margin: auto;
+}
+button#findLoc {
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #f44336;
+    margin: 0 auto;
+    text-align: center;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button#findLoc:hover {
+    background-color: #f44336;
+}
+div.center {
+    margin: auto;
+}
+div#map {
+    height: 600px;
+    width: 100%;
+}

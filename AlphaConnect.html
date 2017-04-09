@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Alpha Project: Home</title>
+        <link rel="stylesheet" href="AlphaConnect.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="AlphaConnect.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd_B4D7TG77ZZpp05edtMgbBdrt4U3Xco&callback=initMap"
+    async defer></script>
+    </head>
+    <body>
+        <nav role="navigation">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="LocalNews.html">Local News</a></li>
+                <li><a href="Weather.html">Weather</a></li>
+                <li><a href="Traffic.html">Traffic</a></li>
+        </nav>
+        <div id="forTheMiddle">
+            <h1>Alpha Project</h1>
+            <div id="insideDiv">
+                <h2><i>A simple way to be connected to your daily surroundings.</i></h2>
+                <p>Knowing community events, knowing your neighborhood, knowing the weather, and knowing the traffic for the day is all useful for being assured of one's surroundings. </p>
+                <p>A quick view every day is all you need to stay connected, and who wants to be left out? Listen into news events, know the forecast, and look at commute time for the day. Hopefully, it's helpful to use in your lives!</p>
+                <div class="center"><button id="findLoc">Check Location</button></div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </body>
+</html>
